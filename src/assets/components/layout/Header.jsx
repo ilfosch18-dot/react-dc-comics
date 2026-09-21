@@ -1,6 +1,9 @@
+import logo from '../../img/marvel-logo.png';
+
 export default function Header() {
   return (
-    <header>Logo
+    <header>
+        <img src={logo} alt="Logo Marvel"/>
         <ul>
         <li>
             Characters
